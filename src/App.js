@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
+import Dropdown from "./components/dropdown";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       style={{ backgroundImage: "url(/img/bg.jpg)" }}
     >
       <Navbar />
+      <Dropdown />
       <div classname="flex text-white text-3xl items-center text-center">
         <p className=" text-white text-3xl items-center text-center">Hello</p>
       </div>
