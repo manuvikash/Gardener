@@ -1,17 +1,3 @@
-// import React from "react";
-
-// function Dropdown() {
-//   return (
-//     <div className="overflow-hidden flex justify-center items-center h-auto">
-//       <select className="block bg-teal-700 w-auto py-2 pl-3 pr-10 text-white rounded-lg ">
-//         <option>Plant 1</option>
-//         <option>Plant 2</option>
-//         <option>Plant 3</option>
-//       </select>
-//     </div>
-//   );
-// }
-
 import { Fragment, useState } from 'react'
 import { Combobox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
