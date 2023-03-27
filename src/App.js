@@ -1,17 +1,20 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
+import Dropdown from "./components/dropdown";
 
 function App() {
   return (
     <div
-      className="h-screen w-screen -z-20"
+      className="h-screen w-screen overflow-hidden"
       style={{ backgroundImage: "url(/img/bg.jpg)" }}
     >
       <Navbar />
-      <div classname="flex text-white text-3xl items-center text-center">
-        <p className=" text-white text-3xl items-center text-center">Hello</p>
+
+      <div className="h-screen w-screen flex flex-col  text-3xl items-center text-center justify-center">
+        <Dropdown />
       </div>
+
     </div>
   );
 }
