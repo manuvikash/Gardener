@@ -11,7 +11,7 @@ const people = [
 ];
 
 export default function Dropdown(props) {
-  const [selected, setSelected] = useState(people[0]);
+  const [selected, setSelected] = useState("select plant type");
   const [query, setQuery] = useState("");
 
   const filteredPeople =
@@ -38,6 +38,7 @@ export default function Dropdown(props) {
               className="w-full border-none py-2 pl-3 pr-10 text-sm leading-5  text-gray-900 focus:ring-0"
               displayValue={(person) => person.name}
               onChange={(event) => setQuery(event.target.value)}
+              placeholder={selected === "Select plant" ? "Select plant" : ""}
             />
             <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
               <ChevronUpDownIcon
