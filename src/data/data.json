@@ -1,0 +1,27 @@
+{
+  "Snake Plant": {
+    "preferred_soil_moisture": { "min": 0, "max": 2048 },
+    "preferred_humidity": { "min": 30, "max": 50 },
+    "preferred_temperature": { "min": 60, "max": 85 }
+  },
+  "Spider Plant": {
+    "preferred_soil_moisture": { "min": 1024, "max": 3072 },
+    "preferred_humidity": { "min": 50, "max": 80 },
+    "preferred_temperature": { "min": 60, "max": 75 }
+  },
+  "Peace Lily": {
+    "preferred_soil_moisture": { "min": 2048, "max": 4095 },
+    "preferred_humidity": { "min": 50, "max": 70 },
+    "preferred_temperature": { "min": 65, "max": 85 }
+  },
+  "Pothos": {
+    "preferred_soil_moisture": { "min": 0, "max": 2048 },
+    "preferred_humidity": { "min": 30, "max": 70 },
+    "preferred_temperature": { "min": 60, "max": 85 }
+  },
+  "Rubber Plant": {
+    "preferred_soil_moisture": { "min": 0, "max": 2048 },
+    "preferred_humidity": { "min": 40, "max": 60 },
+    "preferred_temperature": { "min": 60, "max": 75 }
+  }
+}
