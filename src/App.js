@@ -102,7 +102,9 @@ function App() {
                 <p className={styleMoisture}>
                   Moisture:{" "}
                   {params.moisture
-                    ? `${((4095 - params.moisture) / 4095) * 100} %`
+                    ? `${Number(
+                        ((4095 - params.moisture) / 4095) * 100
+                      ).toFixed(1)} %`
                     : "N/A"}
                 </p>
                 <p className={styleTemperature}>
